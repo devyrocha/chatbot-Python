@@ -7,7 +7,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 class WhatsappBot:
     def __init__(self):
         self.msg = "Bom dia - Essa mensagem foi enviada! via automatização com Python "
-        self.groups = ["Compartilhamento Pessoal", "Amor ❤", "Renato Maia"]
+        #grupo ou contato salvo
+        self.groups = ["Compartilhamento Pessoal", "Renato Maia"]
         options = webdriver.ChromeOptions()
         options.add_argument('lang=pt-br')
         # self.driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
